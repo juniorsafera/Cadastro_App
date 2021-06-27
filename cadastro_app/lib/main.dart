@@ -1,5 +1,6 @@
  
  
+import 'package:cadastro_app/provider/user.dart';
 import 'package:cadastro_app/views/user_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     
     MultiProvider(
       providers: [       
-           Provider<User>(create: (_) =>  User(name: '', email: '', avatarUrl: '') ,)
+           Provider<User>(create: (_) => new User(name: '', email: '', avatarUrl: '')  ,)
       ],
       child:   MaterialApp(
         title: 'Cadastro',

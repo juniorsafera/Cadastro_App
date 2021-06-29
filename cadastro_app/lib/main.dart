@@ -1,6 +1,4 @@
  
- 
-import 'package:cadastro_app/provider/user.dart';
 import 'package:cadastro_app/views/user_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

@@ -23,10 +23,12 @@ class UserList extends StatelessWidget {
           ),
         ],
        ),
-      body: ListView.builder(
+      body: ListView (
 
-        itemCount: users.count,
-        itemBuilder: (context, index) => UserTile(users.all.elementAt(index)),
+         children:[
+              Text("Teste"),
+         ]
+         
 
         ),
     
